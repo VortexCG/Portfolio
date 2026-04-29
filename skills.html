@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header id="top">
+    <nav>
+			<a href="#intro">Home</a>
+      <a href="#about" class="active">About me</a>
+			<a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Hello World!</h1>
+    <!-- Hero Section -->
+    <section id="intro">
+      <h1>Anton Tomylko</h1>
+      <p>Web Developer | Designer | 3D Artist</p>
+      <a href="#about" class="cta-button">More about me</a>
+    </section>
+
+    <section id="intro">
+      <h1>Rachel was here!!</h1>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hello! I'm a passionate web developer with a strong foundation in creating beautiful, 
+            functional websites. I specialize in modern web technologies and love turning ideas 
+            into reality.
+          </p>
+          <p>
+            With experience in front-end and back-end development, I'm dedicated to building 
+            seamless user experiences and writing clean, maintainable code. I'm always eager 
+            to learn new skills and technologies.
+          </p>         
+        </div>        
+      </div>
+    </section>
+    
+		<h3>Heading tag here by Danyal</h3>
+		<!-- Skills section -->
+		<section id="skills">
+			<h2>Skills and Knowledges</h2>
+			<div class="skills">
+				<div class="skill-item">
+					<h4>HTML & CSS</h4>
+					<p>Semantic markup and responsive design</p>
+				</div>
+				<div class="skill-item">
+					<h4>JavaScript</h4>
+					<p>Interactive web applications and DOM manipulation</p>
+				</div>
+				<div class="skill-item">
+					<h4>Web Design</h4>
+					<p>User-centered design and UI/UX principles</p>
+				</div>
+				<div class="skill-item">
+					<h4>PHP Development</h4>
+					<p>Semantic markup and responsive design</p>
+				</div>
+				<div class="skill-item">
+					<h4>Database design</h4>
+					<p>Interactive web applications and DOM manipulation</p>
+				</div>			
+			</div>
+		</section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">📱 Mobile App Design</div>
+          <div class="project-content">
+            <h3>E-Commerce Platform</h3>
+            <p>A fully responsive e-commerce website built with modern HTML, CSS, and JavaScript. 
+            Features include product filtering, shopping cart functionality, and user authentication.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">🎨 UI/UX Design</div>
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio website showcasing my work and skills. Includes smooth scrolling, 
+            animations, and a contact form. Built with responsive design principles.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Responsive</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">⚙️ Web Application</div>
+          <div class="project-content">
+            <h3>Task Management App</h3>
+            <p>A dynamic task management application with local storage integration. Users can create, 
+            update, and delete tasks with a clean and intuitive interface.</p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">DOM API</span>
+              <span class="tag">Local Storage</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+      <h2>What Others Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p>"An exceptional developer with great attention to detail. Delivered our project ahead 
+          of schedule and exceeded our expectations."</p>
+          <div class="testimonial-author">- Sarah Johnson, Project Manager</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>"Working with them was a pleasure. Their code was clean, well-documented, and they 
+          were always open to feedback and suggestions."</p>
+          <div class="testimonial-author">- Michael Chen, Tech Lead</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>"Impressive problem-solving skills and a real passion for creating great user 
+          experiences. Highly recommend for any web development project."</p>
+          <div class="testimonial-author">- Emma Rodriguez, CEO</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <div class="contact-container">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Developed by Anton Tomylko. 2026. All rights reserved.</p>
+    <p>Designed and developed with ❤️</p>
+  </footer>
+</body>
+</html>
